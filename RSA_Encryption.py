@@ -111,10 +111,8 @@ def factoring(n):
 		while n % b!=0:
 			b =  b + 1
 		if n / b == 1:
-			print("p = ", b)
 			p = b
 			break
-		print("q = ", b)
 		q = b
 		n = n / b;
 	phiden = (p - 1) * (q - 1)
